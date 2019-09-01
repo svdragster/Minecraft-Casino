@@ -24,8 +24,6 @@ public class PlayerCasinoRightClickEvent implements Listener {
 
 
         HashMap<Player, Integer> time = new HashMap<>();
-        int scheduler = 0;
-
 
         if (Main.getInstance().getCasinoPlayerList().getList().containsKey(player.getUniqueId())) {
             if (action.equals(Action.RIGHT_CLICK_AIR) || action.equals(Action.RIGHT_CLICK_BLOCK)) {
