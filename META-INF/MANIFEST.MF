@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: minecraftCasino.main.Main
+minecraftCasino.main.Main-Class: minecraftCasino.main.Main
+

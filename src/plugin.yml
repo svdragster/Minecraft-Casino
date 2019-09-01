@@ -1,0 +1,22 @@
+main: minecraftCasino.main.Main
+name: Minecraft-Plugin
+version: 1.0
+author: Handis
+api-version: 1.13
+
+commands:
+  casino:
+    description: Enter the Casino!
+    usage: /casino
+
+  coins:
+    description: returns the number of coins
+    usage: /coins (add | remove | set <amount>)
+
+  exit:
+    description: removes minecraftCasino.minecraftCasino.main.minecraftCasino.player from casino
+    usage: /exit casino
+
+  usecoins:
+    description: return the number of usecoins
+    usage: /usecoins (set <amount>)
